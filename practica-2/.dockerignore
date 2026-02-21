@@ -1,0 +1,32 @@
+# VCS
+.git
+.gitignore
+
+# Java / build outputs
+target
+build
+out
+
+# Gradle / Maven caches (si están dentro del repo)
+.gradle
+.mvn
+**/.mvn
+**/.gradle
+
+# IDEs
+.idea
+.vscode
+*.iml
+
+# Logs / temp
+*.log
+logs
+tmp
+*.tmp
+
+# OS / misc
+.DS_Store
+Thumbs.db
+
+# Docker artifacts
+docker-compose.yml
